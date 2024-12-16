@@ -21,7 +21,7 @@ In the future, there may be additional features, including the implementation of
 
 ## WordPress Installation
 
-If you're looking to install this chatbot on a WordPress site, you can refer to this [Medium]([https://github.com/hassancs91/AI-CHATBOT-Wordpress](https://hasanaboulhasan.medium.com/create-a-free-ai-chatbot-on-wordpress-without-any-third-party-plugins-eaa3af6d1a94)) for guidance on how to integrate it within a WordPress environment.
+If you're looking to install this chatbot on a WordPress site, you can refer to this [Medium](https://hasanaboulhasan.medium.com/create-a-free-ai-chatbot-on-wordpress-without-any-third-party-plugins-eaa3af6d1a94) for guidance on how to integrate it within a WordPress environment.
 
 ## Conclusion
 
