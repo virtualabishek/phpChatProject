@@ -593,16 +593,25 @@
     font-family: inherit;
 }
 
-.lwh-open-cbot h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0.5rem 0;
+/* Maximize Chat Window */
+.lwh-open-cbot .chat.maximize {
+    width: 100%;   /* Lebar penuh */
+    height: 100%;  /* Tinggi penuh */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background: white; /* Pastikan warna latar */
 }
 
-.lwh-open-cbot .chat__messages p {
-    margin: 5px 0;  /* Memberikan margin vertikal antar pesan */
-    line-height: 1.5;
-    word-wrap: break-word;  /* Memastikan kata tidak memanjang ke luar */
-    white-space: pre-wrap;  /* Menjaga whitespace dan baris baru */
+/* Ikon di Header */
+.chat__maximize-icon, .chat__close-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: #555;
 }
-
+.chat__maximize-icon:hover, .chat__close-icon:hover {
+    color: #000;
+}

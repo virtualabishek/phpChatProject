@@ -351,4 +351,20 @@ function lwhOpenCbothandleStartupBtnClick(event){
     startupBtnContainer.style.display = 'none';
 }
 
+function lwhOpenCbotToggleMaximize() {
+    const chatWindow = document.querySelector(".lwh-open-cbot .chat");
+    chatWindow.classList.toggle('maximize');
+
+    // Ubah ikon sesuai state
+    const maximizeIcon = document.querySelector('.chat__maximize-icon i');
+    if (chatWindow.classList.contains('maximize')) {
+        maximizeIcon.classList.remove('fa-expand');
+        maximizeIcon.classList.add('fa-compress'); // Ikon minimize
+    } else {
+        maximizeIcon.classList.remove('fa-compress');
+        maximizeIcon.classList.add('fa-expand'); // Kembali ke ikon maximize
+    }
+}
+
+
 lwhOpenCbotfetchBotConfiguration();
