@@ -9,6 +9,7 @@ This repository contains the necessary files to integrate a basic AI chatbot pow
 ### Files Included:
 
 1. **`AI Chatbot.html` (Frontend)**
+
    - This file contains the HTML, CSS, and JavaScript necessary to display the chatbot on your webpage. Simply open it in any browser to view and interact with the chatbot interface.
 
 2. **`Config.php` (Backend)**
@@ -26,3 +27,5 @@ If you're looking to install this chatbot on a WordPress site, you can refer to 
 ## Conclusion
 
 Thank you for checking out this project! Feel free to contribute, provide feedback, or suggest improvements. This repository is a work in progress, and your support is greatly appreciated.
+
+PHP Project of avinash.
